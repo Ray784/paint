@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar"><item name="android:cacheColorHint">#ff000000</item><item name="android:windowActionBar">true</item><item name="android:dialogTheme">@style/AIDialog</item><item name="windowActionBar">true</item><item name="dialogTheme">@style/AIDialog</item><item name="colorPrimary">@color/colorPrimary</item><item name="colorPrimaryDark">@color/colorPrimaryDark</item><item name="colorAccent">@color/colorAccent</item></style>
+<style name="Platform.AppCompat" parent="@style/Platform.V14.AppCompat" />
+<style name="Platform.AppCompat.Light" parent="@style/Platform.V14.AppCompat.Light" />
+<style name="TextAppearance.AppCompat.Button" parent="@style/TextAppearance.AppCompat"><item name="textAllCaps">false</item></style>
+<style name="Base.TextAppearance.AppCompat.Button" parent="@style/Base.TextAppearance.AppCompat"><item name="android:textSize">@dimen/abc_text_size_button_material</item><item name="android:textColor">?android:textColorPrimary</item><item name="android:textAllCaps">true</item></style>
+<style name="AIAlertDialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert"><item name="colorPrimary">@color/colorPrimary</item><item name="colorPrimaryDark">@color/colorPrimaryDark</item><item name="colorAccent">@color/colorAccent</item></style>
+<style name="AIDialog" parent="@style/Theme.AppCompat.Light.Dialog"><item name="colorPrimary">@color/colorPrimary</item><item name="colorPrimaryDark">@color/colorPrimaryDark</item><item name="colorAccent">@color/colorAccent</item></style>
+<style name="Platform.V14.AppCompat" parent="@style/Platform.V11.AppCompat"><item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item><item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item><item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item></style>
+<style name="Platform.V14.AppCompat.Light" parent="@style/Platform.V11.AppCompat.Light"><item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item><item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item><item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item></style>
+</resources>
